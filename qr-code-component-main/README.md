@@ -43,11 +43,11 @@ Flexboxes and viewport sizes could be helpful to align items properly. Here we p
   <div class="main">
     <div class="content">
       <div class="card">
-        <!-- card content -->
+        #card content
       </div>
     </div>
     <div class="attribution">
-      <!-- attribution content --->
+      #attribution content
     </div>
   </div> 
 ```

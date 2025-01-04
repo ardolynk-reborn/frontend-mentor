@@ -49,9 +49,9 @@ Here we use CSS pseudo-classes and (stubbed) JS handlers for user interaction.
   <div class="card">
     <img src="./assets/images/illustration-article.svg" alt="Illustration" />
     <button onclick="learnMore(this)">Learning</button>
-    <small>Published 21 Dec 2023</small>
+    <small class="pub-date">Published 21 Dec 2023</small>
     <h2 class="article-ref" onclick="showArticle(this)">HTML & CSS foundations</h2>
-    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <p class="annotation">These languages are the backbone of every website, defining structure, content, and presentation.</p>
     <div class="author" onclick="showProfile(this)">
       <img class="avatar" src="./assets/images/image-avatar.webp" alt="Avatar" />
       <h3>Greg Hooper</h3>
