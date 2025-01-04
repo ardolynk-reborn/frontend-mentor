@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ardolynk-reborn/frontend-mentor/blog-preview-card-main)
+- Solution URL: [Add solution URL here](https://github.com/ardolynk-reborn/frontend-mentor/tree/main/blog-preview-card-main)
 - Live Site URL: [Add live site URL here](https://ardolynk-reborn.github.io/frontend-mentor/blog-preview-card-main)
 
 ## My process
