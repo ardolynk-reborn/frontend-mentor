@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ardolynk-reborn/frontend-mentor/tree/main/social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://ardolynk-reborn.github.io/frontend-mentor/social-links-profile-main)
+- Solution URL: [Social links profile source code](https://github.com/ardolynk-reborn/frontend-mentor/tree/main/social-links-profile-main)
+- Live Site URL: [Social links profile live](https://ardolynk-reborn.github.io/frontend-mentor/social-links-profile-main)
 
 ## My process
 
