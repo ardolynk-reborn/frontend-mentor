@@ -79,7 +79,7 @@
   margin-top: 16px;
 }
 
-.links button:hover {
+.links button:hover, .links button:focus {
   background-color: #c5f82a;
   color: #141414;
   cursor: pointer;

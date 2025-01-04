@@ -12,6 +12,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -44,24 +45,24 @@ Users should be able to:
 
 ### What I learned
 
-Here we use buttons to follow links. IMHO it's better to open these links in new tabs.
+Here we use buttons to follow links. IMHO it's better to open these links in new tabs. There are also special indices to select items with TAB or ignore them in case of negative value. Here we also need to remove focus with `blur()` after button pressed.
 
 ```html
   <div class="links">
-    <a href="https://github.com/ardolynk-reborn" target="_blank">
-      <button>GitHub</button>
+    <a href="https://github.com/ardolynk-reborn" target="_blank" tabindex="-1">
+      <button autofocus tabindex="1">GitHub</button>
     </a>
-    <a href="https://www.frontendmentor.io/profile/ardolynk-reborn" target="_blank">
-      <button>Frontend Mentor</button>
+    <a href="https://www.frontendmentor.io/profile/ardolynk-reborn" target="_blank" tabindex="-1">
+      <button tabindex="2">Frontend Mentor</button>
     </a>
-    <a href="https://www.linkedin.com/in/michaeltikhonenko" target="_blank">
-      <button>LinkedIn</button>
+    <a href="https://www.linkedin.com/in/michaeltikhonenko" target="_blank" tabindex="-1">
+      <button tabindex="3">LinkedIn</button>
     </a>
-    <a href="https://x.com/ardolynk75" target="_blank">
-      <button>Twitter</button>
+    <a href="https://x.com/ardolynk75" target="_blank" tabindex="-1">
+      <button tabindex="4">Twitter</button>
     </a>
-    <a href="https://www.instagram.com/ardolynk" target="_blank">
-      <button>Instagram</button>
+    <a href="https://www.instagram.com/ardolynk" target="_blank" tabindex="-1">
+      <button tabindex="5">Instagram</button>
     </a>
   </div>
 ```
@@ -71,3 +72,7 @@ Here we use buttons to follow links. IMHO it's better to open these links in new
 - GitHub - [@ardolynk-reborn](https://github.com/ardolynk-reborn)
 - Frontend Mentor - [@ardolynk-reborn](https://www.frontendmentor.io/profile/ardolynk-reborn)
 - Twitter - [@ardolynk75](https://x.com/ardolynk75)
+
+## Acknowledgments
+
+Thanks to Quentin Bellanger for his [help with keyboard navigation](https://quentin-bellanger.com/blog/keyboard-navigation).
