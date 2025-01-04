@@ -45,24 +45,24 @@ Users should be able to:
 
 ### What I learned
 
-Here we use buttons to follow links. IMHO it's better to open these links in new tabs. There are also special indices to select items with TAB or ignore them in case of negative value. Here we also need to remove focus with `blur()` after button pressed.
+Here we use buttons to follow links. IMHO it's better to open these links in new tabs. There are also negative `tabindex` values to exclude some items from keyboard navigation. Here we also need to remove focus with `blur()` after button pressed.
 
 ```html
   <div class="links">
     <a href="https://github.com/ardolynk-reborn" target="_blank" tabindex="-1">
-      <button autofocus tabindex="1">GitHub</button>
+      <button autofocus>GitHub</button>
     </a>
     <a href="https://www.frontendmentor.io/profile/ardolynk-reborn" target="_blank" tabindex="-1">
-      <button tabindex="2">Frontend Mentor</button>
+      <button>Frontend Mentor</button>
     </a>
     <a href="https://www.linkedin.com/in/michaeltikhonenko" target="_blank" tabindex="-1">
-      <button tabindex="3">LinkedIn</button>
+      <button>LinkedIn</button>
     </a>
     <a href="https://x.com/ardolynk75" target="_blank" tabindex="-1">
-      <button tabindex="4">Twitter</button>
+      <button>Twitter</button>
     </a>
     <a href="https://www.instagram.com/ardolynk" target="_blank" tabindex="-1">
-      <button tabindex="5">Instagram</button>
+      <button>Instagram</button>
     </a>
   </div>
 ```
