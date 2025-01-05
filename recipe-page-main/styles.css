@@ -183,7 +183,7 @@
   }
 
   .picture {
-    padding: 42px;
+    padding: 42px 42px 0 42px;
   }
 
   .picture img {
