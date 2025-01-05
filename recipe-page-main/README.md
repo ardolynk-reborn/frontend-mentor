@@ -37,7 +37,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-The hardest changes of this lesson were connected with lists and table formatting. To center list markers vertically we need to put an item content into a span then apply some specific style attributes.
+The hardest challenges of this lesson were connected with lists and table formatting. To center list markers vertically we need to put an item content into a span then apply some specific style attributes.
 
 ```html
   <ul>
