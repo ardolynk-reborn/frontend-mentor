@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Outfit";
+  src:
+    local("Outfit"),
+    url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-Black.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-Bold.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-ExtraBold.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-ExtraLight.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-Light.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-Medium.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-Regular.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf"),
+    url("./assets/fonts/outfit/static/Outfit-Thin.ttf")
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src:
+    local("YoungSerif"),
+    url("./assets/fonts/young-serif/YoungSerif-Regular.ttf")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* background-color: #e4ded8; */
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+}
+
+.card ol, .card ul {
+  margin-left: 16px;
+}
+
+.card img {
+  padding: 0;
+  width: 100%;
+}
+
+.recipe {
+  font-family: "Outfit", sans-serif;
+  color: #302d2c;
+  padding: 30px;
+}
+
+.recipe p, ol, ul, table {
+  margin-top: 16px;
+  line-height: 24px;
+  color: #5f574e;
+}
+
+.recipe li {
+  margin-top: 8px;
+  padding-left: 24px;
+}
+
+.recipe li > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.recipe li::marker {
+  color: #854632;
+  font-weight: 600;
+}
+
+.recipe h1 {
+  font-family: "YoungSerif", serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.recipe h2 {
+  margin-top: 24px;
+  font-family: "YoungSerif", serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #854632;
+}
+
+.recipe hr {
+  margin-top: 24px;
+  border: none;
+  height: 1px;
+  background-color: #e4ded8;
+}
+
+.nutrition {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition tr {
+  line-height: 42px;
+  border-bottom: 1px solid #e4ded8;
+}
+
+.nutrition tr:last-child {
+  border-bottom: none;
+}
+
+.nutrition-unit {
+  padding-left: 24px;
+}
+
+.nutrition-value {
+  padding-right: 24px;
+  font-weight: 600;
+  color: #854632;
+}
+
+.preparation-time {
+  margin-top: 32px;
+  padding: 20px 24px 20px 24px;
+  background-color: #fff5fa;
+  border-radius: 10px;
+  color: #5f574e;
+}
+
+.preparation-time ul {
+  vertical-align: middle;
+  line-height: 24px;
+}
+
+.preparation-time li {
+  margin-top: 8px;
+  padding-left: 24px;
+}
+
+.preparation-time li > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.preparation-time li::marker {
+  color: #7b284f;
+}
+
+.preparation-time h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #7b284f
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Desktop version */
+@media (min-width: 600px) {
+
+  .content {
+    background-color: #e4ded8;
+  }
+
+  .card {
+    width: 50%;
+    margin-top: 124px;
+    margin-bottom: 124px;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+}
