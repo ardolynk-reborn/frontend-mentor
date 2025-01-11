@@ -61,7 +61,7 @@ Here I had more fun with `flex-grow` and `justify-content` attributes. Also a pr
           <h1 class="actual">$149.99</h1>
           <p class="old">$169.99</p>
         </div>
-        <button><img src="./images/icon-cart.svg" />Add to Cart</button>
+        <button><img src="./images/icon-cart.svg" alt="Cart" />Add to Cart</button>
       </div>
     </div>
   </main> 
