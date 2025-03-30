@@ -1,0 +1,29 @@
+@use "variables"
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap')
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  color: variables.$color-main
+  background-color: variables.$color-bg-main
+  font-family: "Outfit", serif
+  font-weight: 300
+  font-size: 16px
+  line-height: 1.8
+
+a
+  color: variables.$color-bright
+  text-decoration: none
+  &:hover
+    color: variables.$color-active
+
+hr
+  border: none
+  height: 1px
+  background-color: variables.$color-line

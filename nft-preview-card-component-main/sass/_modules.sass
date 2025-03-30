@@ -1,0 +1,21 @@
+@use "variables"
+
+.card
+  width: 20rem
+  padding: 24px
+  background-color: variables.$color-bg-card
+  border-radius: 16px
+
+  &--picture
+    width: 100%
+    border-radius: 8px
+  
+  &--info
+    &--title
+      font-size: 1.3rem
+      margin: 8px 0 8px 0
+    &--attributes
+      display: flex
+      flex-direction: row
+      justify-items: spaces-between
+    
