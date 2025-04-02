@@ -12,10 +12,45 @@
   
   &--info
     &--title
-      font-size: 1.3rem
       margin: 8px 0 8px 0
     &--attributes
       display: flex
       flex-direction: row
-      justify-items: spaces-between
-    
+      justify-content: space-between
+      font-size: 16px
+      margin: 8px 0 8px 0
+      &--cost
+        color: variables.$color-active
+        font-weight: 600
+      &--time
+        font-weight: 400
+  &--creator
+    display: flex
+    flex-direction: row
+    align-items: center
+    gap: 16px
+    font-size: 16px
+    margin: 16px 0 0 0
+
+.inline
+  display: flex
+  flex-direction: row
+  align-items: center
+  gap: 8px
+
+.avatar
+  width: 32px
+  border: 1px solid variables.$color-bright
+  border-radius: 50%
+
+/* Desktop version */
+@media (min-width: variables.$min-desktop-width)
+  .card
+    width: 21.5rem
+    &--info
+      &--title
+        margin: 12px 0 8px 0
+      &--attributes
+        margin: 12px 0 12px 0
+    &--creator
+      margin: 16px 0 16px 0

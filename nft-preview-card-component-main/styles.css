@@ -17,6 +17,11 @@ body {
   line-height: 1.8;
 }
 
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
 a {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
@@ -31,6 +36,12 @@ hr {
   background-color: hsl(215, 32%, 27%);
 }
 
+/* Desktop version */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
 #main {
   display: flex;
   flex-grow: 1;
@@ -49,15 +60,59 @@ hr {
   border-radius: 8px;
 }
 .card--info--title {
-  font-size: 1.3rem;
   margin: 8px 0 8px 0;
 }
 .card--info--attributes {
   display: flex;
   flex-direction: row;
-  justify-items: spaces-between;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 8px 0 8px 0;
+}
+.card--info--attributes--cost {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.card--info--attributes--time {
+  font-weight: 400;
+}
+.card--creator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  margin: 16px 0 0 0;
 }
 
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 32px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+/* Desktop version */
+@media (min-width: 600px) {
+  .card {
+    width: 21.5rem;
+  }
+  .card--info--title {
+    margin: 12px 0 8px 0;
+  }
+  .card--info--attributes {
+    margin: 12px 0 12px 0;
+  }
+  .card--creator {
+    margin: 16px 0 16px 0;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
