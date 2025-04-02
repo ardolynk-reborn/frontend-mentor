@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ardolynk-reborn/frontend-mentor/tree/main/nft-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://ardolynk-reborn.github.io/frontend-mentor/nft-preview-card-component-main)
+- Solution URL: [NFT preview card source code](https://github.com/ardolynk-reborn/frontend-mentor/tree/main/nft-preview-card-component-main)
+- Live Site URL: [NFT preview card live](https://ardolynk-reborn.github.io/frontend-mentor/nft-preview-card-component-main)
 
 ## My process
 
